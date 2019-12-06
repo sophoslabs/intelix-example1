@@ -1,0 +1,6 @@
+- pipeline.id: intelix-web
+  path.config: "/usr/share/logstash/pipeline/web-pipeline.conf"
+  pipeline.workers: 1
+- pipeline.id: intellix-file
+  path.config: "/usr/share/logstash/pipeline/file-pipeline.conf"
+  pipeline.workers: 1
